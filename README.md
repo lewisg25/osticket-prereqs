@@ -31,7 +31,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ---
 
-### **2. Web Server**
+### **2. Web Server** <img width="1440" alt="Screenshot 2025-01-01 at 3 38 43 PM" src="https://github.com/user-attachments/assets/a51cce37-34d4-47ed-a922-555fb474603a" />
+
+
 - **IIS (Internet Information Services)**: Version 7 or newer for Windows.
 - **Apache**: For Linux or macOS setups.
 
@@ -100,7 +102,7 @@ Here’s a simple, step-by-step explanation of how to create an osTicket setup. 
      - Password: **osTicketPassword1!**
 
 <p>
-<img src="https://i.imgur.com/OPoPUs5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
 
@@ -168,7 +170,7 @@ Here’s a simple, step-by-step explanation of how to create an osTicket setup. 
 4. **Install Visual C++ Redistributable**:
    - Double-click `VC_redist.x86.exe` to install.
      
-     ![Screenshot 2024-11-22 204007](https://github.com/user-attachments/assets/602807e6-38a8-410d-b3ea-8ec3d16abc22)
+  
 
 
 5. **Install MySQL**:
@@ -177,11 +179,11 @@ Here’s a simple, step-by-step explanation of how to create an osTicket setup. 
    - During the setup wizard:
      - Choose **Standard Configuration**.
        
-     ![Screenshot 2024-11-22 204120](https://github.com/user-attachments/assets/75875497-ada4-43c8-838a-e52ee72dd50e)
+   
 
      - Set the username to **root** and the password to **root**.
 
-       ![Screenshot 2024-11-22 204157](https://github.com/user-attachments/assets/b69510ff-68ca-4749-9cf5-9a1556ea088c)
+    
 
 </p>
 <br />
@@ -271,13 +273,13 @@ Here’s a simple, step-by-step explanation of how to create an osTicket setup. 
      - Database Name: `osTicket`
      - MySQL Username: `root`
      - MySQL Password: `root`.
-    ![Screenshot 2024-11-22 212154](https://github.com/user-attachments/assets/0f65cb79-699f-481a-8bb1-643901f6860b)
+    ![Screenshot 2024-11-22 212154](Screenshot 2025-01-01 at 3.38.43 PM.png)
 
    - Click **Install Now**.
 
 4. **Access osTicket**:
    - Staff Login: `http://localhost/osTicket/scp/login.php`.
-     ![Screenshot 2024-11-22 212449](https://github.com/user-attachments/assets/3c5c16db-d197-448c-a54d-7f310165fd85)
+    
 
    - End-User Portal: `http://localhost/osTicket/`.
    ![Screenshot 2024-11-22 212915](https://github.com/user-attachments/assets/796b1421-7113-456b-afb8-0fdaba182034)
@@ -292,8 +294,6 @@ Here’s a simple, step-by-step explanation of how to create an osTicket setup. 
    - Set `C:\inetpub\wwwroot\osTicket\include\ost-config.php` to **Read-only**.
 
 ---
-
-![Screenshot 2024-11-22 212227](https://github.com/user-attachments/assets/15450526-81e4-4d9b-8075-03b2b9e235a5)
 
 And that’s it! You now have osTicket running and ready to use. 🎉
 </p>
